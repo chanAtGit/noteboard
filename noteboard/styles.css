@@ -1,0 +1,231 @@
+body{
+    background-image: url(corkboard.jpg);
+}
+
+p{
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+h2{
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+h3{
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+#title{
+    font-family: Helvetica, Verdana, sans-serif;
+    text-align: center;
+}
+
+.myInput{
+  border: 3px solid #ddd;
+  display: inline-block;
+}
+
+#searchInput{
+  padding: 12px 20px 12px 40px;
+  background-image: url('searchicon.png');
+  background-size: 1.5%;
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 90%;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+#nameInput{
+  padding: 12px 5px 12px 5px;
+  font-size: 12px;
+}
+
+#desInput{
+  padding: 12px 5px 12px 5px;
+  font-size: 12px;
+}
+
+#newNameInput{
+  padding: 12px 5px 12px 5px;
+  font-size: 12px;
+}
+
+#newDesInput{
+  padding: 12px 5px 12px 5px;
+  font-size: 12px;
+}
+
+.alertmsn{
+  color: red;
+}
+
+.popup{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.popup-content{
+  position: relative;
+  background-color: white;
+  height: 380px;
+  width: 300px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 30px;
+  margin: auto;
+}
+
+#setting-content{
+  height: 380px;
+  width: 300px;
+}
+
+#inspect-content{
+  height: 500px;
+  width: 400px;
+  word-wrap: break-word;
+}
+
+#edit-content{
+  height: 425px;
+  width: 300px;
+}
+
+.container{
+  text-align: center;
+}
+
+.rightDivButton{
+  text-align: right;
+}
+
+.closeBtn{
+  cursor: pointer;
+  background-color: transparent;
+  border: transparent;
+  font-size: 17px;
+  font-weight: bold;
+  color: grey;
+}
+
+.closeBtn:hover{
+  color: red;
+}
+
+.confirmBtn{
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 7px 20px;
+  font-size: 18px;
+  background-color: #72bcd4;
+  color: white;
+}
+
+.cancelBtn{
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 7px 20px;
+  font-size: 18px;
+  background-color: lightslategray;
+  color: black;
+}
+
+.confirmBtn:hover{
+  background-color: green;
+}
+
+#addButton{
+  background-image: url('buttonicon.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#itemList{
+  display: block;
+}
+
+#noItemText{
+    margin-top: 75px;
+    font-family: Monaco,"Lucida Console", monospace;
+}
+
+.itemPrior{
+  text-align:left;
+}
+
+.itemBox{
+    position: relative;
+    background-color: lightgoldenrodyellow;
+    display: inline-block;
+    vertical-align: top; 
+    border-left: 5px solid;
+    height: 220px;
+    width: 220px;
+    margin: 0px 12px 12px 12px;
+    padding: 7px 10px 7px;
+    text-align: left;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+.item-text{
+  font-size: 13px;
+}
+
+.low-bar{
+  display: block;
+  height: 22px;
+  width: 220px;
+  padding: 0;
+  margin:0;
+  position: absolute;
+  bottom: 0px;
+  text-align: right;
+}
+
+.bar-buttons{
+  cursor: pointer;
+  height: 22px;
+  width: 22px;
+  margin: 0 3px 0 3px;
+  background-color: transparent;
+  border: none;
+  background-size: 22px 22px;
+  background-repeat: no-repeat;
+}
+
+#inspect-btn{
+  background-image: url(inspect-icon.png);
+  cursor: pointer;
+}
+
+#edit-btn{
+  background-image: url(edit-icon.png);
+  cursor: pointer;
+}
+
+#delete-btn{
+  background-image: url(delete-icon.png);
+  cursor: pointer;
+}
+
